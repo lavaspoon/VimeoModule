@@ -18,5 +18,17 @@ This project is a Spring Boot-based backend module designed for uploading videos
 4. The client uploads the encoded file directly to Vimeo using `tus-js-client`
 5. (Optional) You can notify the server or user upon upload completion
 
-## 📁 Folder Structure
+## 🧪 Requirements
+
+- Java 17+
+- FFMPEG must be installed and accessible via system path
+- A Vimeo developer account with an access token
+
+## 🔐 Configuration
+
+Set your Vimeo access token in `application.yml`:
+
+```yaml
+vimeo:
+  access-token: YOUR_VIMEO_ACCESS_TOKEN
 
